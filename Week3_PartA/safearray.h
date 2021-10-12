@@ -4,6 +4,13 @@
 using namespace std;
 
 class mySafeArray {
+
+	private:
+		int* arr;
+		int size = 10;
+
 	public:
-		int myarray[10];
+		mySafeArray();
+		~mySafeArray();
+		int at(int x);
 };
